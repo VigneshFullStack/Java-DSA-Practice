@@ -1,0 +1,8 @@
+# Compiled output
+bin/
+
+# VS Code settings (optional)
+.vscode/
+
+# OS files
+.DS_Store
