@@ -2,7 +2,7 @@ package basics;
 
 /* 
     Problem Statement :
-    
+
     You are given an integer n. You need to return the number of digits in the number.
     The number will have no leading zeroes, except when the number is 0 itself.
 */
@@ -46,3 +46,19 @@ public class CountDigits {
         return (int) Math.floor(Math.log10(n)) + 1;
     }
 }
+
+/*
+    🧠 One-Line Interview Explanation :
+
+    “I repeatedly divide the number by 10.
+    Each division removes one digit, so the number of iterations gives the digit count.
+    I handle zero separately.”
+*/
+
+
+/* 
+    ⏱ Complexity :
+
+    Time Complexity: O(d) → number of digits
+    Space Complexity: O(1)
+*/
