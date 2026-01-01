@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
+/* 
+    Problem Statement :
+     
+    You are given an integer n. You need to find all the divisors of n.
+    Return all the divisors of n as an array or list in a sorted order.
+    A number which completely divides another number is called it's divisor.
+*/
+
 public class DivisorsOfNumber {
     public static void main(String[] args) {
         int[] result = divisors(36); // [1, 2, 3, 4, 6, 9, 12, 18, 36]
