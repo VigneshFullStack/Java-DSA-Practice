@@ -10,7 +10,7 @@ package arrays;
     - All other elements are shifted one position to the right
 */
 
-public class RotateArrayByOne {
+public class RightRotateArrayByOne {
     public static void main(String[] args) {
         int[] arr1 = {1, 2, 3, 4, 5};
         int[] arr2 = {9, 8, 7, 6, 4, 2, 1, 3};
