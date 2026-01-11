@@ -24,32 +24,33 @@ public class SecondLargestElement {
 
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
-        boolean foundSecond = false;
 
         for(int num : arr){
             if(num > largest){
-                if (largest != Integer.MIN_VALUE) {
-                    secondLargest = largest;
-                    foundSecond = true;
-                }
+                secondLargest = largest;
                 largest = num;
             } else if (num < largest && num > secondLargest){
                 secondLargest = num;
-                foundSecond = true;
             }
         }
 
-        return foundSecond ? secondLargest : -1;
+        // If secondLargest was never updated
+        if (secondLargest == Integer.MIN_VALUE) {
+            return -1;
+        }
+
+        return secondLargest;
     }
 }
 
 /*
     🧠 Interview Explanation :
 
-    “I traverse the array once while tracking the largest and second-largest elements.
-    To safely handle negative values, I initialize both with Integer.MIN_VALUE.
-    I update a boolean flag only when a valid distinct second-largest value is found,
-    and if no such value exists after traversal, I return -1.”
+    “I iterate through the array once while tracking the largest and second largest values.
+    When a new largest is found, the old largest becomes the second largest.
+    Duplicates of the largest are ignored.
+    If the second largest is never updated, I return -1.
+    This runs in O(n) time and O(1) space.”
 */
 
  
