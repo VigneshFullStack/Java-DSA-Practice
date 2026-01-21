@@ -14,7 +14,7 @@ package arrays;
     - k can be greater than n
 */
 
-public class RightRotateByK {
+public class RightRotateArrayByK {
     public static void main(String[] args) {
         int[] arr1 = {7, 5, 2, 11, 2, 43, 1, 1};
         int k1 = 2;

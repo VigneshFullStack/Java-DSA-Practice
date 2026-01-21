@@ -22,14 +22,14 @@ public class LeftRotateArrayByK {
         int[] arr2 = {5, 6, 7, 8};
         int k2 = 3;
 
-        rotateLeft(arr1, k1);
-        rotateLeft(arr2, k2);
+        rotateLeftByK(arr1, k1);
+        rotateLeftByK(arr2, k2);
 
         printArray(arr1); // 2 11 2 43 1 1 7 5
         printArray(arr2); // 8 5 6 7
     }
 
-    public static void rotateLeft(int[] arr, int k){
+    public static void rotateLeftByK(int[] arr, int k){
         if (arr == null || arr.length == 0) return;
 
         int n = arr.length;
