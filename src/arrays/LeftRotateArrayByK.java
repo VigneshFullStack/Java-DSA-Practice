@@ -30,7 +30,7 @@ public class LeftRotateArrayByK {
     }
 
     public static void rotateLeftByK(int[] arr, int k){
-        if (arr == null || arr.length == 0) return;
+        if(arr == null || arr.length <= 1) return;
 
         int n = arr.length;
 

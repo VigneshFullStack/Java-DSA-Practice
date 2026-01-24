@@ -23,6 +23,8 @@ public class RightRotateArrayByOne {
     }
 
     public static void rotateByOne(int[] arr){
+        if (arr == null || arr.length <= 1) return;
+        
         int n = arr.length;
         int lastElement = arr[n - 1];
 

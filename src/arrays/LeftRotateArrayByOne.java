@@ -23,6 +23,8 @@ public class LeftRotateArrayByOne {
     }
 
     public static void rotateByOne(int[] arr){
+        if (arr == null || arr.length <= 1) return;
+        
         int n = arr.length;
         int firstElement = arr[0];
 
