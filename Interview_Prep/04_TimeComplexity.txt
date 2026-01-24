@@ -1,0 +1,60 @@
+
+🕒 What is Time Complexity?
+
+Time Complexity tells us:
+
+👉 How long an algorithm takes to run as the input size increases.
+
+It does not measure time in seconds, but in steps.
+
+
+🧮 Why don't we measure actual time in seconds?
+
+Because actual time depends on:
+
+	CPU speed
+
+	Laptop configuration
+
+	Network speed
+
+	Compiler
+
+	Background apps
+
+So instead of seconds, we measure steps.
+
+
+🎯 Why do we need Time Complexity?
+
+Because two pieces of code may do the same thing but one might be:
+
+	🔥 very fast
+
+	🐢 very slow
+
+And you must know which one is better before writing code or going to production.
+
+
+📌 Definition (Simple & Correct)
+Time Complexity describes how the number of operations grows as the input size (n) grows.
+
+
+🎯 Why Programmers Care?
+
+Because understanding Time Complexity helps you choose:
+
+	Faster algorithms
+
+	Efficient data structures
+
+	Better performance
+
+	Better code for interviews
+
+Example:
+
+Searching in a list: O(n)
+
+Searching in a sorted list using Binary Search: O(log n) → FAR faster
+

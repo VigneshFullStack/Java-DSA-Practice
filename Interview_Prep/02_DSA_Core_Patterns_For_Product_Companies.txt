@@ -1,0 +1,101 @@
+🔹 Arrays / Strings (VERY IMPORTANT)
+
+	Patterns:
+
+		Two pointers
+
+		Sliding window (fixed & variable)
+
+		Prefix sum
+
+		Hashing (Map / Set)
+
+		Kadane’s algorithm
+
+		Sorting + logic
+
+		Rotation / rearrangement
+
+		Frequency + prefix combinations
+		
+		
+🔹 Linked List
+
+	Patterns:
+
+		Slow–fast pointer
+
+		Reverse
+
+		Cycle detection
+
+		Merge lists
+		
+		
+🔹 Stack / Queue
+
+	Patterns:
+
+		Monotonic stack
+
+		Next greater element
+
+		Valid parentheses
+
+		Sliding window maximum
+		
+		
+🔹 Binary Search (NOT just search)
+
+	Patterns:
+
+		First / last occurrence
+
+		Search on answer
+
+		Rotated array
+
+		Peak element
+		
+		
+🔹 Tree
+
+	Patterns:
+
+		DFS / BFS
+
+		Height / diameter
+
+		Level order
+
+		Path problems
+
+		LCA
+		
+		
+🔹 Recursion / Backtracking (Basics only)
+
+	Subsets
+
+	Permutations
+
+	Combination sum
+	
+	
+
+❌ What You Can SKIP (For Now)
+
+Unless targeting FAANG hardcore roles:
+
+	Advanced Graph algorithms
+
+	Tries
+
+	Segment Trees
+
+	Heavy DP
+
+	Bit manipulation tricks
+	
+⚠️ Skip for now does NOT mean skip forever. Only deprioritize until interviews are close.
+

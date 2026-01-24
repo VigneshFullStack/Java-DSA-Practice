@@ -1,0 +1,39 @@
+
+🧠 What is Space Complexity?
+👉 Space Complexity tells us how much extra memory an algorithm needs to run.
+
+Not the memory of the input…
+but the additional memory the algorithm uses while solving the problem.
+	
+
+📌 Important:
+Space Complexity measures ONLY extra space used by your logic, not the input itself.
+
+Example:
+If your input array has 100 elements, that memory is not counted.
+But if your program creates:
+
+	extra variables
+
+	extra arrays
+
+	temporary copies
+
+	recursion stack
+	then that memory is counted.
+	
+
+🧩 Why do we need Space Complexity?
+
+Because different algorithms:
+
+	use different amounts of memory
+
+	perform differently on low-memory devices
+
+	can crash if memory is not handled properly
+
+	may need optimization
+
+Space Complexity helps us understand how memory grows when the input grows.
+

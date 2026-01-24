@@ -1,0 +1,110 @@
+
+🔑 The Core Truth (Please Remember This)
+
+	You do NOT crack product-company interviews by solving 400–500 problems.
+	You crack them by mastering a small number of patterns deeply.
+
+	The “solve 500 problems” advice is mostly for:
+
+		Competitive programming
+
+		Freshers with lots of time
+
+		YouTube content creators 😅
+
+	For an experienced full-stack engineer, solving hundreds of random problems is low ROI(Return Of Investment).
+	
+
+🔹 Why 100–150 Problems Is ENOUGH (If Done Right)
+
+	Because interviews don’t test problem count
+	They test:
+
+		Can you identify the pattern
+
+		Can you optimize
+
+		Can you explain trade-offs
+
+		Can you handle edge cases
+
+		Can you code cleanly
+
+		One pattern → many questions.
+	
+	Example:
+
+	Sliding window pattern
+		→ 15 different interview questions
+		→ but same thinking
+
+
+The Right Way vs Wrong Way :
+❌ Wrong Way (Most People Do This)
+
+	Watch 400 videos
+
+	Copy solutions
+
+	Jump between topics
+
+	No explanation practice
+
+	Panic in interviews
+
+Result: “I’ve seen this question before but can’t solve it”
+
+
+✅ Right Way (What We’ll Do)
+
+For each problem:
+
+	Identify the pattern
+
+	Explain it out loud
+
+	Write clean code
+
+	Analyze time & space
+
+	Think of variations
+
+This builds interview muscle memory.
+
+
+🔹 Interview Skills
+
+	Interview is NOT just solving, It's about :
+
+		Talk before coding
+
+		Clarify constraints
+
+		Explain approach
+
+		Then code
+
+		Then optimize
+		
+
+
+🔹 Time–Space Tradeoff Thinking
+
+	Always think:
+
+		Can I reduce time using space?
+
+		Can I reduce space using time?
+
+	Interviewers LOVE this.
+	
+	
+🔹 Constraints Awareness
+
+	If n <= 10^5 → O(n log n) or O(n)
+	If n <= 10^7 → O(n) only
+	Nested loops → always question
+
+	This helps you instantly reject bad solutions.
+	
+	
