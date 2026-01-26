@@ -1,4 +1,4 @@
-package arrays.important;
+package arrays.important.TwoPointers;
 
 /* 
     Problem Statement :
