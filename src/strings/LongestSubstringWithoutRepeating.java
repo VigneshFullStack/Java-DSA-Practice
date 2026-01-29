@@ -24,8 +24,10 @@ import java.util.Set;
 public class LongestSubstringWithoutRepeating {
     public static void main(String[] args) {
         
+        // -------- Brute Force --------
         System.out.println(lengthBruteForce("abcabcbb")); // 3
 
+        // -------- Optimal --------
         System.out.println(lengthOptimal("abcabcbb"));    // 3
         System.out.println(lengthOptimal("bbbbb"));       // 1
         System.out.println(lengthOptimal(""));            // 0
@@ -97,7 +99,7 @@ public class LongestSubstringWithoutRepeating {
 }
 
 /*
-    🧠 Interview Explanation — Brute Force:
+    🧠 Interview Explanation (Brute Force Approach):
 
     “I consider all possible substrings using two loops.
     For each substring, I check if it contains duplicate
@@ -106,7 +108,7 @@ public class LongestSubstringWithoutRepeating {
     I track the maximum valid length found.”
 
 
-    🧠 Interview Explanation — Optimal (Sliding Window):
+    🧠 Interview Explanation (Optimal Approach - Sliding Window):
 
     “I use a sliding window with two pointers.
     The right pointer expands the window by adding characters.
