@@ -63,6 +63,11 @@ public class RemoveDuplicatesFromUnsortedArray {
             set.add(num);
         }
 
+        int index = 0;
+        for(int num : set){
+            arr[index++] = num;
+        }
+
         return set.size();
     }
 
@@ -78,6 +83,11 @@ public class RemoveDuplicatesFromUnsortedArray {
 
         for(int num : arr){
             set.add(num);
+        }
+
+        int index = 0;
+        for(int num : set){
+            arr[index++] = num;
         }
 
         return set.size();
