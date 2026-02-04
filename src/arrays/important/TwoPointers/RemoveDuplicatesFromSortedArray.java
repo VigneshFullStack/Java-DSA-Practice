@@ -104,28 +104,30 @@ public class RemoveDuplicatesFromSortedArray {
 /*
     🧠 Interview Explanation (Brute Force):
 
-    “I use a Set to store unique elements from the array.
-    Since the array is sorted, insertion preserves order.
-    I then copy the unique elements back into the array.
-    This approach is simple but uses extra space.”
+    “I use a HashSet to collect unique values.
+    Then I copy them back to the array.
+    This works but requires extra space.”
 
 
-    🧠 Interview Explanation (Optimal – Two Pointers):
+    🧠 Interview Explanation (Optimal):
 
     “Because the array is sorted, duplicates appear consecutively.
-    I use two pointers moving in the same direction.
-    One pointer tracks the position of the last unique element.
-    When a new unique value is found, I overwrite the next position.
-    This removes duplicates in-place without extra space.”
+    I use two pointers:
+    slow tracks the last unique element,
+    fast scans the array.
+
+    Whenever nums[fast] is different,
+    I increment slow and overwrite its position.
+
+    Finally, slow + 1 gives total unique count.”
 
 
-    🧠 Interview Explanation — Edge Case Handling (Bonus):
+    🧠 Edge Case Handling:
 
-    - Null array → return 0
-    - Empty array → return 0
-    - Single element → return 1
-    - All elements same → return 1
+    “I return 0 for null or empty arrays.
+    Single-element arrays naturally return 1.”
 */
+
 
 /* 
     ⏱ Complexity :
